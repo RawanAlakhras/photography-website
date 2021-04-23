@@ -397,4 +397,7 @@ footer ul li a:hover{
     .flip-card{
       width: 80%;
     }
+    .dropdown-menu .dropdown-item{
+      text-align: center;
+    }
   }
