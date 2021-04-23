@@ -1,50 +1,50 @@
-@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700&display=swap");
 /* global set  */
 
-*{
-    -webkit-box-sizing: border-box;
-    -moz-sizing: border-box;
-    box-sizing: border-box;
-    --main-color:#794B57;
-   
-    
+* {
+  -webkit-box-sizing: border-box;
+  -moz-sizing: border-box;
+  box-sizing: border-box;
+  --main-color: #794b57;
 }
 
-body{
-    direction: rtl;
-    font-family: 'Ubuntu', sans-serif;
+body {
+  direction: rtl;
+  font-family: "Ubuntu", sans-serif;
 }
-section{
-    margin: 30px 0;
-
+section {
+  margin: 30px 0;
 }
 /* box shadow */
-.card{
+.card {
   --tw-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
-box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),
+    var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 /* end box shadow */
 
-.btn-r{
+.btn-r {
   position: relative;
-  background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(121,75,87,1) 100%);
-  color:#EE445F;
-  border:1px solid var(--main-color);
+  background: radial-gradient(
+    circle,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(121, 75, 87, 1) 100%
+  );
+  color: #ee445f;
+  border: 1px solid var(--main-color);
   --tw-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
-  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
-  padding:5px 22px;
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),
+    var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+  padding: 5px 22px;
   text-shadow: 0 0 3px var(--main-color);
   width: 100%;
 }
-.btn-r:hover{
-  color:#fff;
+.btn-r:hover {
+  color: #fff;
   font-weight: bolder;
 }
 
 /* end global set */
-
-
-
 
 /* start navbar 
 .navbar-light .navbar-nav .show > .nav-link, .navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .nav-link.active {
@@ -56,251 +56,247 @@ nav a img{
     height: 70px;
 }
  end navbar */
- /* new navbar */
- .navbar{
-     padding: 0 2rem !important;
- }
- .navbar-inverse {
-    background: #ccc !important;
-    border-bottom: 4px solid var(--main-color) !important;
-  }
-  
-  .navbar-brand img{
-    width: 40px;
-   
-  }
-  
-  .nav {
-    margin-bottom: 0px;
-  }
-  .nav a {
-    font: 500 11px Lato;
-    padding:8px 16px !important;
-    color: var(--main-color) !important;
-    position: relative;
-    z-index: 1000;
-    font-family: 'Ubuntu', sans-serif;
-    font-size: 16px;
-  
-   
-  }
-  .nav-item.dropdown a{
-      color: #000 !important;
-  }
-  .dropdown-menu .dropdown-item{
-      font-size: 12px;
-      text-align: right;
-  }
-  .dropdown-menu .dropdown-item:hover{
-      transition: all .5s ease;
-      color:var(--main-color) !important;
-      font-size: 12px;
-      
-  }
-  .nav-item.dropdown{
-      padding: 0;
-  }
-  .nav a:hover {
-    color: #FFF !important;
-    text-decoration: none;
-    font: 500 11px Lato;
-    position: relative;
-    z-index: 1000;
-    font-family: 'Ubuntu', sans-serif;
-    font-size: 16px;
-  }
-  .nav li {
-    position: relative;
-    padding: 8px 16px;
-  }
-  
-  .navbar-inverse .navbar-toggler {
-    border: none;
-  }
-  
-  .navbar-collapse {
-    box-shadow: none !important;
-    border: none !important;
-  }
-  
-  .navbar-inverse .navbar-toggler:hover {
-    background: transparent !important;
-  }
-  
-  .navbar-inverse .navbar-toggler:focus {
-    background: transparent !important;
-  }
-  
-  .navbar-inverse .navbar-toggler:active {
-    background: transparent !important;
-  }
-  
-  .hover  {
-    display: block;
-    position: absolute;
-    width: 0%;
-    height: 100%;
-    top: 0px;
-    left: 0px;
-    background: var(--main-color) !important;
-    z-index: 0;
-    opacity: 0;
-    
-  }
-  .hover2{
-    display: block;
-    position: absolute;
-    width: 0%;
-    height: 100%;
-    top: 0px;
-    left: 0px;
-    background: #EE445F !important;
-    z-index: 0;
-    opacity: 0;
+/* new navbar */
+.navbar {
+  padding: 0 2rem !important;
+}
+.navbar-inverse {
+  background: #ccc !important;
+  border-bottom: 4px solid var(--main-color) !important;
+}
 
-  }
-  .insta{
-      display: inline-block;
-     
-  }
-  .navbar-collapse i{
-      border-radius: 10px;
-      background-color: var(--main-color);
-      padding: 8px 10px;
-      color:#fff;
-  }
-  
-  
- /* end new navbar */
+.navbar-brand img {
+  width: 40px;
+}
+
+.nav {
+  margin-bottom: 0px;
+}
+.nav a {
+  font: 500 11px Lato;
+  padding: 8px 16px !important;
+  color: var(--main-color) !important;
+  position: relative;
+  z-index: 1000;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 16px;
+}
+.nav-item.dropdown a {
+  color: #000 !important;
+}
+.dropdown-menu .dropdown-item {
+  font-size: 12px;
+  text-align: right;
+}
+.dropdown-menu .dropdown-item:hover {
+  transition: all 0.5s ease;
+  color: var(--main-color) !important;
+  font-size: 12px;
+}
+.nav-item.dropdown {
+  padding: 0;
+}
+.nav a:hover {
+  color: #fff !important;
+  text-decoration: none;
+  font: 500 11px Lato;
+  position: relative;
+  z-index: 1000;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 16px;
+}
+.nav li {
+  position: relative;
+  padding: 8px 16px;
+}
+
+.navbar-inverse .navbar-toggler {
+  border: none;
+}
+
+.navbar-collapse {
+  box-shadow: none !important;
+  border: none !important;
+}
+
+.navbar-inverse .navbar-toggler:hover {
+  background: transparent !important;
+}
+
+.navbar-inverse .navbar-toggler:focus {
+  background: transparent !important;
+}
+
+.navbar-inverse .navbar-toggler:active {
+  background: transparent !important;
+}
+
+.hover {
+  display: block;
+  position: absolute;
+  width: 0%;
+  height: 100%;
+  top: 0px;
+  left: 0px;
+  background: var(--main-color) !important;
+  z-index: 0;
+  opacity: 0;
+}
+.hover2 {
+  display: block;
+  position: absolute;
+  width: 0%;
+  height: 100%;
+  top: 0px;
+  left: 0px;
+  background: #ee445f !important;
+  z-index: 0;
+  opacity: 0;
+}
+.insta {
+  display: inline-block;
+}
+.navbar-collapse i {
+  border-radius: 10px;
+  background-color: var(--main-color);
+  padding: 8px 10px;
+  color: #fff;
+}
+
+/* end new navbar */
 /* start slider */
-.carousel-indicators li{
-    border-radius: 50%;
-    width: 15px;
-    height: 15px;
-    background-color: var(--main-color);
+.carousel-indicators li {
+  border-radius: 50%;
+  width: 15px;
+  height: 15px;
+  background-color: var(--main-color);
 }
-.carousel .carousel-inner img{
-    height: 85vh;
+.carousel .carousel-inner img {
+  height: 85vh;
 }
-.carousel-caption h5{
-    color:var(--main-color);
+.carousel-caption h5 {
+  color: var(--main-color);
 }
-.carousel-caption p{
-    font-size: 15px;
+.carousel-caption p {
+  font-size: 15px;
 }
-.carousel-caption{
-    bottom: 30px;
+.carousel-caption {
+  bottom: 30px;
 }
 /* end slider */
 
 /* strat card section-1 */
-.section-1 h1 ,.section-1 hr{
-  color:var(--main-color);
+.section-1 h1,
+.section-1 hr {
+  color: var(--main-color);
   display: inline-block;
 }
-.section-1 hr{
+.section-1 hr {
   width: 40%;
-  background-color:  var(--main-color);
+  background-color: var(--main-color);
   height: 1px;
-  margin-bottom:8px !important ;
+  margin-bottom: 8px !important ;
 }
-.section-1 header{
+.section-1 header {
   width: 100%;
 }
 .flip-card {
-    background-color: transparent;
-    width: 90%;
-    height: 200px;
-    border: 1px solid #f1f1f1;
-    perspective: 1000px; /* Remove this if you don't want the 3D effect */
-    border-radius: 2rem;
-    margin: auto;
-  }
+  background-color: transparent;
+  width: 90%;
+  height: 200px;
+  border: 1px solid #f1f1f1;
+  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+  border-radius: 2rem;
+  margin: auto;
+}
 
-  
-  /* This container is needed to position the front and back side */
-  .flip-card-inner {
-    position: relative;
-    width: 100%;
-    height: 100%;
-    text-align: center;
-    transition: transform 0.8s;
-    transform-style: preserve-3d;
-    border-radius: 2rem;
-  }
-  
-  /* Do an horizontal flip when you move the mouse over the flip box container */
-  .flip-card:hover .flip-card-inner {
-    transform: rotateY(180deg);
-  }
-  
-  /* Position the front and back side */
-  .flip-card-front, .flip-card-back {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    -webkit-backface-visibility: hidden; /* Safari */
-    backface-visibility: hidden;
-  }
-  
-  /* Style the front side (fallback if image is missing) */
-  .flip-card-front {
-    background-color:  var(--main-color);
-    color: black;
-    display: flex;
-    border-radius: 2rem;
-    padding: 10px;
-  }
-  
-  /* Style the back side */
-  .flip-card-back {
-    background-color:#bbb;
-    color: white;
-    transform: rotateY(180deg);
-    border-radius: 2rem;
-    text-align: center;
-    padding: 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  .flip-card-front h4{
-      text-align: center;
-      color:#fff;
-      margin: auto;
-  }
+/* This container is needed to position the front and back side */
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+  border-radius: 2rem;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.flip-card-front,
+.flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+}
+
+/* Style the front side (fallback if image is missing) */
+.flip-card-front {
+  background-color: var(--main-color);
+  color: black;
+  display: flex;
+  border-radius: 2rem;
+  padding: 10px;
+}
+
+/* Style the back side */
+.flip-card-back {
+  background-color: #bbb;
+  color: white;
+  transform: rotateY(180deg);
+  border-radius: 2rem;
+  text-align: center;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.flip-card-front h4 {
+  text-align: center;
+  color: #fff;
+  margin: auto;
+}
 /* end card section */
 /* start section 2 */
-.section-2{
+.section-2 {
   background-color: #eee;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
-.card{
+.card {
   text-align: right;
- /*  background: linear-gradient(332deg, rgba(255,255,255,1) 20%, rgba(121,75,87,1) 100%); */
-
+  /*  background: linear-gradient(332deg, rgba(255,255,255,1) 20%, rgba(121,75,87,1) 100%); */
 }
-.card .card-img-top{
+.card .card-img-top {
   width: 100%;
   height: 150px;
 }
-.card .card-title{
-  color:var(--main-color);
+.card .card-title {
+  color: var(--main-color);
   font-weight: bolder;
 }
-.card-text{
+.card-text {
   font-size: 15px;
-  opacity: .7;
+  opacity: 0.7;
 }
 /* end section 2 */
 /* start section 3  */
-.section-3{
-  background: linear-gradient(332deg, rgba(255,255,255,1) 0%, rgba(121,75,87,1) 100%);
+.section-3 {
+  background: linear-gradient(
+    332deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(121, 75, 87, 1) 100%
+  );
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 /* end section 3 */
 /* start footer */
-footer{
+footer {
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   text-align: right;
   position: relative;
@@ -312,92 +308,187 @@ footer{
   top: -60px;
   right: 48%;
 } */
-.img-logo{
+.img-logo {
   width: 100%;
   position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
-
 }
-.img-logo img{
+.img-logo img {
   width: 100px;
- margin-top: -100px;
+  margin-top: -100px;
 }
-.social{
+.social {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100%;
 }
-.social i{
-  padding:10px;
-  background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(121,75,87,1) 100%);
+.social i {
+  padding: 10px;
+  background: radial-gradient(
+    circle,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(121, 75, 87, 1) 100%
+  );
   border-radius: 5px;
   color: #fff;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-  margin-right:4px ;
+  margin-right: 4px;
 }
-footer ul{
+footer ul {
   list-style: none;
   text-align: center;
   padding: 0;
 }
-footer ul li a{
-  color:var(--main-color);
+footer ul li a {
+  color: var(--main-color);
   text-decoration: none;
-  transition: all .5s ease;
+  transition: all 0.5s ease;
 }
-footer p{
-  opacity: .7;
+footer p {
+  opacity: 0.7;
 }
-footer ul li a:hover{
+footer ul li a:hover {
   text-decoration: none;
-  color: #EE445F;
-  
+  color: #ee445f;
 }
 /* end footer */
+
+/* ===================================================== */
+/* strat our work page  */
+
+
+/* header */
+.hero-img {
+  width: 100%;
+  height: 85vh;
+  background-image: -webkit-linear-gradient(62deg, #ffffff 0%, #794b57 100%);
+  background-image: -moz-linear-gradient(62deg, #ffffff 0%, #794b57 100%);
+  background-image: -o-linear-gradient(62deg, #ffffff 0%, #794b57 100%);
+  background-image: linear-gradient(62deg, #ffffff 0%, #794b57 100%);
+}
+.hero-img img{
+  width:100%;
+  height: 100%;
+  
+}
+.header-text{
+  color:#fff;
+  margin: auto;
+}
+/* end header */
+
+/* strat slider */
+/* strat barnd section */
+.brand-section{
+  width: 100%;
+  height: 100%;
+  background-color:#f0f0f0 ;
+  padding: 30px 0;
+  box-shadow: 0 15px 45px -9px rgb(0 0 0 / 20%);
+}
+.brand-section header{
+  width: 100%;
+  text-align: center;
+  color: var(--main-color);
+}
+.brand-section img:hover{
+  transition: all .5s ease-in-out;
+  transform: scale(1.2);
+}
+  .img-height{
+    height: 200px;
+    align-items: center;
+  }
+.brand-section .carousel-item img{
+  height: 150px;
+  width: 300px;
+  
+}
+.brand-section .img-thumbnail{
+  background-color: transparent;
+}
+.brand-section .carousel-control-prev,
+.brand-section .carousel-control-next {
+  top: 40%;
+  bottom: 40%;
+  z-index: 3;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 4%;
+  color: #fff;
+  text-align: center;
+  opacity: 0.5;
+  background-color: var(--main-color);
+  transition: opacity 0.15s ease;
+  border-radius: 1rem;
+}
+.wsection-1 h1,
+.wsection-1 hr {
+  color: var(--main-color);
+  display: inline-block;
+  font-size: 20px;
+}
+.wsection-1 hr {
+  width: 40%;
+  background-color: var(--main-color);
+  height: 1px;
+  margin-bottom: 8px !important ;
+}
+.wsection-1 header {
+  width: 100%;
+}
+/* end barnd section */
+
+/* end slider */
+/* end our work page */
+/* ===================================================== */
 /* phone  */
 @media (max-width: 480px) {
-    .nav {
-      padding-bottom: 20px;
-    }
-    .insta{
-        padding-bottom: 20px;
-        width: 100%;
-        text-align: center;
-    }
-    .navbar-nav {
-        padding:20px 0 !important;
-    }
-    footer ul{
-      text-align: center;
-      padding: 0;
-      border-bottom: 1px solid #ccc;
-      padding-bottom: 10px;
-    }
-    footer img{
-      right: 32%;
-     
-    }
-    footer p{
-      text-align: center;
-      border-bottom: 1px solid #ccc;
-      padding-bottom: 10px;
-    }
-    .navbar-nav {
-      text-align: center;
-    }
-    .nav-item.dropdown a{
-      padding-right: 32px !important;
-    }
-    .section-1 hr{
-      width: 30%;
-    }
-    .flip-card{
-      width: 80%;
-    }
-    .dropdown-menu .dropdown-item{
-      text-align: center;
-    }
+  .nav {
+    padding-bottom: 20px;
   }
+  .insta {
+    padding-bottom: 20px;
+    width: 100%;
+    text-align: center;
+  }
+  .navbar-nav {
+    padding: 20px 0 !important;
+  }
+  footer ul {
+    text-align: center;
+    padding: 0;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+  }
+  footer img {
+    right: 32%;
+  }
+  footer p {
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+  }
+  .navbar-nav {
+    text-align: center;
+  }
+  .nav-item.dropdown a {
+    padding-right: 32px !important;
+  }
+  .section-1 hr {
+    width: 30%;
+  }
+  .flip-card {
+    width: 80%;
+  }
+  .dropdown-menu .dropdown-item {
+    text-align: center;
+  }
+}
