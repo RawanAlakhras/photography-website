@@ -83,7 +83,7 @@ nav a img{
    
   }
   .nav-item.dropdown a{
-      color: #EE445F !important;
+      color: #000 !important;
   }
   .dropdown-menu .dropdown-item{
       font-size: 12px;
@@ -191,7 +191,20 @@ nav a img{
 }
 /* end slider */
 
-/* strat card section */
+/* strat card section-1 */
+.section-1 h1 ,.section-1 hr{
+  color:var(--main-color);
+  display: inline-block;
+}
+.section-1 hr{
+  width: 40%;
+  background-color:  var(--main-color);
+  height: 1px;
+  margin-bottom:8px !important ;
+}
+.section-1 header{
+  width: 100%;
+}
 .flip-card {
     background-color: transparent;
     width: 100%;
@@ -356,6 +369,13 @@ footer ul li a:hover{
       border-bottom: 1px solid #ccc;
       padding-bottom: 10px;
     }
-
-   
+    .navbar-nav {
+      text-align: center;
+    }
+    .nav-item.dropdown a{
+      padding-right: 32px !important;
+    }
+    .section-1 hr{
+      width: 30%;
+    }
   }
