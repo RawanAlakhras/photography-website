@@ -523,4 +523,7 @@ footer ul li a:hover {
   .box{
     width: 282px;
   }
+  .hero-img {
+    height: 50vh;
+  }
 }
