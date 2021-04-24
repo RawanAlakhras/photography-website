@@ -609,4 +609,8 @@ footer ul li a:hover {
   .insta-img{
     height: 80% !important;
   }
+  .pakge .card{
+    width: 80% !important;
+    margin: auto;
+  }
 }
