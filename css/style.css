@@ -606,4 +606,7 @@ footer ul li a:hover {
   .hero-img {
     height: 50vh;
   }
+  .insta-img{
+    height: 80% !important;
+  }
 }
