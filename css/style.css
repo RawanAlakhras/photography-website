@@ -543,7 +543,69 @@ footer ul li a:hover {
 /* end insta page */
 /* ================================================ */
 
+/* contact us page  */
+.form-box{
+  width: 80%;
+  height: 100%;
+  margin: auto;
+  border:5px solid transparent;
+  border-radius: 1rem;
+  padding: 20px;
+  box-shadow: 20px 20px 30px -10px #192824;
+  background-color: #fff;
 
+}
+.header-form{
+  color: var(--main-color);
+  font-weight: bolder;
+}
+.contact-form{
+  text-align: right;
+}
+.form-control{
+border-color: #000;
+font-family: 'Courier New', Courier, monospace;
+}
+.left-text{
+  position: relative;
+  height: 100%;
+  width: 100%;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-image: url(../img/2.jpg);
+  border: 2px solid #f0f0f0;
+
+
+}
+.left-text p{
+  margin: auto;
+  /* margin-bottom: 50%; */
+  /* margin-top: 107%; */
+  height: 100%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  font-size: larger;
+  background-color:#facce873 ;
+  border-radius: 5%;
+  padding: 5px;
+  font-weight: bolder;
+
+}
+a{
+color:#000;
+text-decoration: none;
+}
+a:hover{
+color: #000;
+font-weight: bolder;
+}
+
+/* end contact us section */
 
 
 /* phone  */
@@ -615,5 +677,12 @@ footer ul li a:hover {
   .pakge .card{
     width: 80% !important;
     margin: auto;
+  }
+  .form-box{
+    width: 100%;
+    padding:20px 0;
+  }
+  .form-control{
+    font-size: small;
   }
 }
