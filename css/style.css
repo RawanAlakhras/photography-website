@@ -18,6 +18,9 @@ section {
 .card-body{
   text-align: center;
 }
+.card-img-top{
+  border-radius: 50%;
+}
 /* slid up animation */
 
 .slideUp {
