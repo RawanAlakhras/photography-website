@@ -647,7 +647,30 @@ font-weight: bolder;
 
 /* end contact us section */
 
-
+/* work -4 */
+.pakge form{
+  background-color: #fff;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  width: 50%;
+  margin: auto;
+  padding: 50px;
+  text-align: right;
+}
+.pakge form input{
+  width: 100%;
+  margin-bottom: 20px ;
+}
+.pakge form input[type="checkbox"]{
+  margin-bottom: 0;
+  width: max-content;
+ 
+}
+.form-check-label{
+  margin-right: 20px;
+}
+form h2{
+  color:var(--main-color);
+}
 /* phone  */
 @media (max-width: 480px) {
   .nav {
@@ -724,5 +747,9 @@ font-weight: bolder;
   }
   .form-control{
     font-size: small;
+  }
+  .pakge form{
+    width: 100% !important;
+    padding: 10px !important;
   }
 }
